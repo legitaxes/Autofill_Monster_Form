@@ -1,0 +1,61 @@
+{
+  "name": "Automating Search",
+  "description": "Eases the process of filtering and downloading resume from Monster.com.sg",
+  "main": "Main.xaml",
+  "dependencies": {
+    "CsvHelper": "[2.13.5]",
+    "CustomInputHTMLPageGenerator.Activities": "[1.0.2]",
+    "DocX": "[1.0.0.19]",
+    "FontAwesome.WPF": "[4.7.0.9]",
+    "Twilio": "[4.7.2]",
+    "UiPath": "[20.6.7473.25550-preview]",
+    "UiPath.Abbyy.Activities": "[1.2.0]",
+    "UiPath.AbbyyEmbedded.Activities": "[1.0.2-preview]",
+    "UiPath.Excel.Activities": "[2.8.5]",
+    "UiPath.Form.Activities": "[1.1.5]",
+    "UiPath.FormActivityLibrary": "[1.1.5]",
+    "UiPath.FormActivityLibrary.Contracts": "[1.1.1]",
+    "UiPath.GSuite.Activities": "[1.5.1]",
+    "UiPath.IntelligentOCR.Activities": "[4.8.0-preview]",
+    "UiPath.Mail.Activities": "[1.8.5]",
+    "UiPath.MicrosoftOffice365.Activities": "[1.2.1]",
+    "UiPath.OCR.Activities": "[2.1.0-preview]",
+    "UiPath.OCR.Contracts": "[2.6.0]",
+    "UiPath.OmniPage.Activities": "[1.5.1-preview]",
+    "UiPath.OmniPage.Bundle": "[1.0.2]",
+    "UiPath.Python.Activities": "[1.1.6863.33404]",
+    "UiPath.ScreenOCR.Activities": "[1.2.3-preview]",
+    "UiPath.System.Activities": "[20.6.1-preview]",
+    "UiPath.UIAutomation.Activities": "[20.6.0-preview]",
+    "UiPath.VMware.Activities": "[1.1.1]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.2.0.108",
+  "projectVersion": "1.0.3",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "arguments": {
+    "input": [],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
